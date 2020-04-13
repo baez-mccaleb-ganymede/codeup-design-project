@@ -3,6 +3,16 @@
  body {
      background-color: #F0F0F0;
  }
+
+h1  {
+    font-family: 'Anton', sans-serif;
+    font-size: 64px;
+}
+
+h2  {
+    font-family: 'Anton', sans-serif;
+    font-size: 48px;
+}
 .design {
     font-family: 'Anton', sans-serif;
     color: white;
@@ -61,4 +71,12 @@
 }
 .card {
     background-color: #F0F0F0;
+}
+
+.feature-font {
+    font-family: 'Abel', sans-serif
+}
+
+.select-work {
+    font-family: 'Abel', sans-serif
 }
