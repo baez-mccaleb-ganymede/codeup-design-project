@@ -1,5 +1,64 @@
 /*font-family: 'Anton', sans-serif;*/
 /*font-family: 'Abel', sans-serif;*/
  body {
-     background-color: lightgray;
+     background-color: #F0F0F0;
  }
+.design {
+    font-family: 'Anton', sans-serif;
+    color: white;
+    background: #E6563B;
+    border: .5em solid white;
+    width: 105px;
+    height: 105px;
+}
+.develop {
+    font-family: 'Anton', sans-serif;
+    color: white;
+    border: .5em solid white;
+    background: #DEA03D;
+    width: 105px;
+    height: 105px;
+}
+.support {
+    font-family: 'Anton', sans-serif;
+    color: white;
+    border: .5em solid white;
+    background: #7CB06C;
+    width: 105px;
+    height: 105px;
+}
+.host {
+    font-family: 'Anton', sans-serif;
+    color: white;
+    border: .5em solid white;
+    background: #00ABA9;
+    width: 105px;
+    height: 105px;
+}
+.mini-design {
+    font-family: 'Anton', sans-serif;
+    background: #E6563B;
+    width: 18px;
+    height: 18px;
+}
+.mini-develop {
+    font-family: 'Anton', sans-serif;
+    background: #DEA03D;
+    width: 18px;
+    height: 18px;
+}
+.mini-support {
+    font-family: 'Anton', sans-serif;
+    background: #7CB06C;
+    width: 18px;
+    height: 18px;
+}
+.mini-host {
+    font-family: 'Anton', sans-serif;
+    background: #00ABA9;
+    width: 18px;
+    height: 18px;
+}
+.card {
+    background-color: #F0F0F0;
+}
