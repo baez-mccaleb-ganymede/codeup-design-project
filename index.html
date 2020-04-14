@@ -14,20 +14,32 @@
     </head>
     <body>
     <main>
-        <div class="container-fluid">
-            <section class="row">
-                <div class="nav">
-
-                </div>
-            </section>
-            <section class="row d-sm-none d-block">
-                <h1 class="col-12 d-flex justify-content-center">VISUAL DESIGN &</h1>
-            </section>
-            <section class="row d-sm-none d-block">
-                <h1 class="col-12 d-flex justify-content-center mb-5">WEB DEVELOPMENT</h1>
-            </section>
-        </div>
+        <div class="nav-bg bg-light"></div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <ul class="navbar-nav align-items-center w-100">
+                    <li class="nav-item mr-lg-auto">
+                        <a class="nav-link" href="#"><img src="images/logo.png" class="logo-img" alt="logo">codeup design</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">WORK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <div class="container">
+            <section class="row d-block mb-5">
+                <h1 class="col-12 d-flex justify-content-center">VISUAL DESIGN & WEB DEVELOPMENT</h1>
+            </section>
             <section class="row">
                 <h2 class="col-12 d-flex justify-content-center">FROM PARK CITY, UTAH</h2>
             </section>
@@ -47,16 +59,17 @@
                 </div>
             </section>
 <!--            BIG CIRCLE BUTTONS END-->
-            <div class="d-none d-sm-block border"></div>
+            <div class="d-none d-sm-block border mb-5"></div>
 <!--            4 BIG CARDS START-->
-            <section class="row d-md-none">
-                    <p class="card-title mx-auto my-5 select-work">SELECTED WORK</p>
-            </section>
+<!--            <section class="row">-->
+<!--                    <p class="card-title mx-auto select-work">SELECTED WORK</p>-->
+<!--            </section>-->
             <div class="row">
-                <div class="col-12 col-sm-12 col-md-9">
-                    <div class="container">
+                <div class="col-12 col-sm-12 col-md-8">
+                    <div class="container-fluid">
+                        <p class="card-title mx-auto select-work text-center text-md-left">SELECTED WORK</p>
                         <div class="row">
-                            <div class="col-sm-6 col-md-5 card border-0 feature-font">
+                            <div class="col-sm-6 col-md-6 card border-0 feature-font">
                                 <div class="card-body my-3 p-0">
                                     <img src="images/apple-ipad.jpg" class="img-thumbnail" alt="ipad with apples on it">
                                 </div>
@@ -70,7 +83,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="d-none d-sm-block col-sm-6 col-md-5 card border-0 feature-font">
+                            <div class="d-none d-sm-block col-sm-6 col-md-6 card border-0 feature-font">
                                 <div class="card-body my-3 p-0">
                                     <img src="images/macbook.jpg" class="img-thumbnail" alt="desk with computer">
                                 </div>
@@ -85,7 +98,7 @@
                                 </div>
                             </div>
                             <div class="w-100"></div>
-                            <div class="d-none d-sm-block col-sm-6 col-md-5 card border-0 feature-font">
+                            <div class="d-none d-sm-block col-sm-6 col-md-6 card border-0 feature-font">
                                 <div class="card-body my-3 p-0">
                                     <img src="images/man.jpg" class="img-thumbnail" alt="guy with glasses">
                                 </div>
@@ -99,7 +112,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="d-none d-sm-block col-sm-6 col-md-5 card border-0 feature-font">
+                            <div class="d-none d-sm-block col-sm-6 col-md-6 card border-0 feature-font">
                                 <div class="card-body p-0 my-3">
                                     <img src="images/security.jpg" class="img-thumbnail" alt="security text">
                                 </div>
@@ -119,8 +132,9 @@
     <!--            4 BIG CARDS END-->
     <!--            ARTICLE CARDS ON RIGHT SIDE -->
                 <div class="col">
-                    <div class="container">
+                    <div class="container-fluid">
                         <div class="row">
+                            <p class="card-title select-work d-none d-sm-none d-md-block">THE LAST</p>
                             <div class="d-none d-sm-none d-md-block small-card-font mt-3">
                                 <div class="card mb-3 card border-0">
                                     <div class="row no-gutters">
@@ -158,7 +172,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="feature-font">
+                                <div class="feature-font mt-5">
                                     <p><i class="fab fa-twitter"></i> LAST TWEET</p>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, animi blanditiis deleniti dolorum et.</p>
                                 </div>
