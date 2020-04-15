@@ -13,6 +13,14 @@
     background: lightgray;
     color: black !important;
 }
+.ad-para1 {
+    height: 50px;
+    width: 100%;
+}
+.ad-para2 {
+    height: 100px;
+    width: 100%;
+}
 /*#sidenav {*/
 /*    background: lightgray;*/
 /*}*/
