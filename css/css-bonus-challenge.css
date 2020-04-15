@@ -1,1 +1,18 @@
 /*font-family: Roboto, sans-serif;*/
+#top-nav {
+    background: black;
+}
+#top-nav-ul>li>a:hover {
+    background: white;
+    color: black !important;
+}
+#logo {
+    background: #353535;
+}
+#logo:hover {
+    background: lightgray;
+    color: black !important;
+}
+/*#sidenav {*/
+/*    background: lightgray;*/
+/*}*/
