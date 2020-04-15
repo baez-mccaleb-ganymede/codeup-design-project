@@ -1,4 +1,10 @@
 /*font-family: Roboto, sans-serif;*/
+body {
+    height: 100vh;
+}
+#main,#container {
+    height: 100%;
+}
 #top-nav {
     background: black;
 }
@@ -20,6 +26,14 @@
 .ad-para2 {
     height: 100px;
     width: 100%;
+}
+#footer>li>a {
+    text-decoration: none;
+    color: black;
+}
+#footer>li>a:hover {
+    background: black;
+    color: white;
 }
 /*#sidenav {*/
 /*    background: lightgray;*/
